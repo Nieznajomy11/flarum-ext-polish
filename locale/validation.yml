@@ -79,4 +79,4 @@ validation:
 
   custom:
     username:
-      regex: "The username may only contain letters, numbers, and dashes."
+      regex: "Nazwa użytkownika może zawierać tylko litery, cyfry i myślniki."
