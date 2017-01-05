@@ -293,7 +293,7 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "Tytuł został zmieniony przez {username}"
+      discussion_renamed_text: "{username} zminił(a) tytuł"
       empty_text: Brak powiadomień
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
@@ -302,7 +302,7 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: Edytowany
-      edited_tooltip: "Edytowany przez: {username}, {ago}"
+      edited_tooltip: "{username} edytował(a) wpis {ago}"
       number_tooltip: "Post #{number}"
 
     # These translations are used by the post control buttons.
@@ -315,14 +315,14 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Teraz
-      original_post_link: Pierwszy post
+      original_post_link: Pierwszy wpis
       unread_text: "Nieczytane: {count}"
-      viewing_text: "{index} z {count} postu|{index} z {count} postów"
+      viewing_text: "Wpis {index} z {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: 'Poprzedni tytuł: "{old}"'
-      discussion_renamed_text: "{new} – nowy tytuł ustawiony przez {username}."
+      discussion_renamed_text: "{username} zmienił(a) tytuł na {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} później"
@@ -341,7 +341,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Strona
-      notify_discussion_renamed_label: Ktoś zmienił nazwę dyskusji, rozpoczętej przeze mnie
+      notify_discussion_renamed_label: Ktoś zmienił nazwę mojej dyskusji
       privacy_disclose_online_label: Pozwól innym widzieć, gdy jestem online
       privacy_heading: Prywatność
       title: => core.ref.settings
@@ -365,7 +365,7 @@ core:
       bio_placeholder: Napisz kilka słów o sobie
       discussions_link: => core.ref.discussions
       in_discussion_text: "w {discussion}"
-      joined_date_text: "Na forum od {ago}"
+      joined_date_text: "Dołączył(a) {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       posts_link: Posty
@@ -373,9 +373,9 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Zarządzanie
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Na pewno chcesz usunąć użytkownika? Wszystkie jego wpisy zostaną także usunięte."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
