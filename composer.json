@@ -12,9 +12,12 @@
   "authors": [
     {
       "name": "Lukasz Florcczak",
-      "email": "lukasz@muuteam.com"
     }
   ],
+  "support": {
+    "issues": "https://github.com/lukaszflorczak/flarum-ext-polish/issues",
+    "source": "https://github.com/lukaszflorczak/flarum-ext-polish",
+  },
   "extra": {
     "branch-alias": {
       "dev-master": "0.1.x-dev"
