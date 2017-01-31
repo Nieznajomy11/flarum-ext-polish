@@ -79,10 +79,10 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tagi"
+      added_tags_text: "{username} dodał(a) {tagsAdded}."
+      added_and_removed_tags_text: "{username} dodał(a) {tagsAdded} i skasował(a) {tagsRemoved}."
+      removed_tags_text: "{username} skasował(a) {tagsRemoved}."
+      tags_text: "tag {tags}|tagi {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
