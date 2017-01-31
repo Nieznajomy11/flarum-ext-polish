@@ -419,7 +419,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Strona prezentuje się najlepiej w nowoczesnych przeglądarkach z włączoną obsługą JavaScript.
-      load_error_message: Coś poszło nie tak podczas ładowania pełnej wersji strony.
+      load_error_message: Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.
       loading_text: Ładowanie...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
