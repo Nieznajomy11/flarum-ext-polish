@@ -23,7 +23,7 @@ flarum-likes:
     post:
       like_link: Lubię to
       liked_by_self_text: "{users} lubisz to.|{users} lubicie to."  # Can be pluralized to agree with the number of users!
-      liked_by_text: "{users} lubią to.|{users} lubi to."
+      liked_by_text: "{users} lubi to.|{users} lubią to."
       others_link: => core.ref.some_others
       unlike_link: Nie lubię
       you_text: => core.ref.you
