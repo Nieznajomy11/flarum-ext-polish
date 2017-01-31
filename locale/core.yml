@@ -303,7 +303,7 @@ core:
     post:
       edited_text: Edytowany
       edited_tooltip: "{username} edytował(a) wpis {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "Wpis #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
